@@ -1,0 +1,53 @@
+.div_main{
+	background-color: gray;
+	width: auto;
+	padding-bottom: 30px;
+}
+
+.div_main2{
+		clear: both;
+}
+
+.stuff_1{
+	background-color: red;
+	float: left;
+	width: 280px;
+	padding: 0 10px;
+	margin: 0 10px;
+}
+
+.stuff_2{
+	background-color: green;
+	float:left;
+	width: 280px;
+	padding: 0 10px;
+	margin: 0 10px;
+}
+
+.stuff_3{
+	background-color: blue;
+	float:left;
+	width: 280px;
+	padding: 0 10px;
+	margin: 0 10px;
+}
+
+.image_paragraph{
+	overflow: auto;
+	border: thin solid black;
+
+}
+ 
+img{
+	padding: 10px;
+	max-height: 100px;
+	max-width: 100px;
+	float: left;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	margin: 10px 0;
+	padding: 10px 0;
+}
