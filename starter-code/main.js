@@ -15,12 +15,8 @@ function createCards(numCard){
 	}
 }
 
-
-var cardOne ="queen";
-var cardTwo ="queen";
-var cardThree ="king";
-var cardFour ="king";
-
+var cards = ["queen","queem","king","king"];
+var cardsInPlay = [];
 createCards(4);
 
 /*if(cardOne === cardTwo){
