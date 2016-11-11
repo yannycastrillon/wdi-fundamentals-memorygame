@@ -1,11 +1,29 @@
 console.log("JS file is connected to HTML! Woo!")
 
+function createCards(numCard){
+	// get the node of game board.
+	var card;
+	var gameBoard = document.getElementById("game-board");
+	
+	for (var i =0; i<numCard; i++) {
+		// create card node.
+		card = document.createElement("div");
+		// add a Class attribute to the card Node.
+		card.className = "card";
+		// appends card to the game board node
+		gameBoard.appendChild(card);
+	}
+}
+
+
 var cardOne ="queen";
 var cardTwo ="queen";
 var cardThree ="king";
 var cardFour ="king";
 
-if(cardOne === cardTwo){
+createCards(4);
+
+/*if(cardOne === cardTwo){
 	alert("You found a match Quens");
 }
 if (cardThree === cardFour){
@@ -22,4 +40,4 @@ if (cardtwo === cardThree){
 }
 if (cardtwo === cardFour){
 	alert("Not match found");
-}
+}*/
