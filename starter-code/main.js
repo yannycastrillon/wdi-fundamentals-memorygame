@@ -1,11 +1,11 @@
 console.log("JS file is connected to HTML! Woo!")
 
-function createCards(numCard){
+function createCards(cards){
 	// get the node of game board.
 	var card;
 	var gameBoard = document.getElementById("game-board");
 	
-	for (var i =0; i<numCard; i++) {
+	for (var i =0; i<cards.length; i++) {
 		// create card node.
 		card = document.createElement("div");
 		// add a Class attribute to the card Node.
@@ -15,9 +15,10 @@ function createCards(numCard){
 	}
 }
 
+
 var cards = ["queen","queem","king","king"];
 var cardsInPlay = [];
-createCards(4);
+createCards(cards);
 
 /*if(cardOne === cardTwo){
 	alert("You found a match Quens");
